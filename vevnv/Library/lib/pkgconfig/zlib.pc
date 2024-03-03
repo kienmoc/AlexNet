@@ -1,0 +1,13 @@
+prefix=D:/Project/Image Classification/vevnv/Library
+exec_prefix=D:/Project/Image Classification/vevnv/Library
+libdir=D:/Project/Image Classification/vevnv/Library/lib
+sharedlibdir=D:/Project/Image Classification/vevnv/Library/lib
+includedir=D:/Project/Image Classification/vevnv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
